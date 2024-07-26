@@ -6,8 +6,9 @@ export default function Hero() {
         <div className='hero-text' >
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
-            <p>We are a family owned Mediterranean restaurant,</p>
-            <p> focused on traditional recipes served with a modern twist.</p>
+            <p>We are a family owned Mediterranean </p>
+            <p>restaurant, focused on traditional recipes</p>
+            <p> served with a modern twist.</p>
         </div>
     </div>
   )
