@@ -12,15 +12,11 @@
 }
 
 .navigation ul li{
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 .navigation img{
   margin-left: 20px;
-}
-
-.hero-section{
-  background-color: #495E57;
 }
 
 .footer-nav {
@@ -32,4 +28,43 @@
 
 .doormat-nav{
   margin-top: 60px;
+}
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #495E57;
+  color: white;
+  overflow: hidden;
+}
+ .hero-text {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.hero-text h1 {
+  font-size: 64px;
+  color: #F4CE14;
+  margin: 0 0 10px 0;
+}
+.hero-text h2 {
+  font-size: 50px;
+  margin: 0 0 20px 0;
+}
+.hero-text p {
+  font-size: 18px;
+}
+.hero-img {
+  position: absolute;
+  right: -100px;
+  bottom: -50px;
+  width: 50%;
+  height: 120%;
+  object-fit: cover;
+  border-radius: 16px;
+  overflow: visible;
 }
